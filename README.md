@@ -14,6 +14,7 @@ This project is part of SanberCode's API Automation assignment. It uses JavaScri
   - [Customers](#customers)
   - [Units](#units)
   - [Categories](#categories)
+  - [Users](#users)
 - [Contribution](#contribution)
 - [License](#license)
 
@@ -56,6 +57,13 @@ This project is part of SanberCode's API Automation assignment. It uses JavaScri
 │   ├── getcategorydetail.js
 │   ├── getcategorylist.js
 │   └── updatecategory.js
+├──   users
+│   ├── alltestuser.js
+│   ├── createuser.js
+│   ├── deleteuser.js
+│   ├── getuserdetail.js
+│   ├── getuserlist.js
+│   └── updateuser.js
 ├── alltests.js
 ├── package.json
 └── README.md
@@ -102,6 +110,15 @@ mocha Customers/alltestcustomer.js
 - `getcategorydetail.js`: Tests fetching category details.
 - `getcategorylist.js`: Tests fetching the category list.
 - `updatecategory.js`: Tests updating category data.
+
+### Users
+
+- `alltestuser.js`: Runs all user tests.
+- `createuser.js`: Tests creating a new user.
+- `deleteuser.js`: Tests deleting a user.
+- `getuserdetail.js`: Tests fetching user details.
+- `getuserlist.js`: Tests fetching the user list.
+- `updateuser.js`: Tests updating user data.
 
 ## Contribution
 
